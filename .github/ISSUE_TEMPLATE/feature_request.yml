@@ -1,0 +1,44 @@
+name: Feature request
+description: Something Ripple Effect should be able to do and cannot.
+title: "[feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The most useful requests describe the **problem** rather than the
+        control — what you were trying to write, and where the app got in the
+        way. There is usually more than one way to fix that, and the best one
+        is often not the one either of us thought of first.
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: What you are trying to do
+      description: The story, board or workflow this is about.
+    validations:
+      required: true
+
+  - type: textarea
+    id: obstacle
+    attributes:
+      label: Where the app gets in the way today
+      description: What you do instead, and what it costs you.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would help
+      description: A shape, if you have one in mind. Leave it blank if you would rather just describe the problem.
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: "1.0.0"
+    validations:
+      required: false

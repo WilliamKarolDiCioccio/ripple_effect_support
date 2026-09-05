@@ -1,0 +1,15 @@
+# Blank issues stay ON deliberately. The app's support button opens
+# /issues/new?title=…&body=…&labels=… with the version and OS already filled
+# in, and GitHub only honours a prefilled body on the blank form — an issue
+# *form* ignores it. Turning blank issues off would silently break the one
+# route most reports actually arrive by.
+blank_issues_enabled: true
+
+contact_links:
+  - name: Ask a question, or show what you made
+    url: https://github.com/WilliamKarolDiCioccio/ripple_effect_support/discussions
+    about: Usage, ideas, and anything that is not yet a bug.
+
+  - name: Something wrong with the node canvas itself
+    url: https://github.com/WilliamKarolDiCioccio/fl_nodes_v2/issues
+    about: Panning, wiring, selection and undo live in fl_nodes_v2, which is a public package of its own.

@@ -1,0 +1,92 @@
+name: Bug report
+description: Something in Ripple Effect does not work, or does the wrong thing.
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time.
+
+        This repository is **public**, and so is everything filed in it —
+        please do not paste anything private into the boxes below.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What the app actually did.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected instead
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: From opening the app. Small and exact beats complete.
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: From the About box, beside the ripple mark. The app's support button fills this in for you.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Linux (deb)
+        - Linux (rpm)
+        - Linux (built from source)
+        - Windows (msix)
+        - macOS (dmg, Apple silicon)
+        - macOS (dmg, Intel)
+    validations:
+      required: true
+
+  - type: input
+    id: os-version
+    attributes:
+      label: Operating system version
+      placeholder: "Ubuntu 24.04, Windows 11 23H2, macOS 15.1…"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: fresh-project
+    attributes:
+      label: Does it happen on a fresh, empty project?
+      description: The single most useful thing to know after the steps — it separates a bug in the app from something about one project's files.
+      options:
+        - "Yes"
+        - "No — only on one particular project"
+        - Have not tried
+    validations:
+      required: true
+
+  - type: textarea
+    id: extras
+    attributes:
+      label: Anything else
+      description: |
+        Screenshots, a screen recording, the contents of the messages panel, or a zipped project folder that triggers it.
+        Everything a project holds is a plain text file you can read before you send it.
+    validations:
+      required: false
