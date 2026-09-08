@@ -55,9 +55,11 @@ body:
         - Linux (deb)
         - Linux (rpm)
         - Linux (built from source)
-        - Windows (msix)
+        - Windows (exe)
+        - Windows (built from source)
         - macOS (dmg, Apple silicon)
         - macOS (dmg, Intel)
+        - macOS (built from source)
     validations:
       required: true
 
@@ -80,6 +82,17 @@ body:
         - Have not tried
     validations:
       required: true
+
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics
+      description: |
+        Filled in for you by the app's support button, and safe to edit or empty.
+        Ripple Effect removes your username, home folder, project location, e-mail and network addresses before writing any of this, and records times in UTC — but it is your machine and your call, so read it if you like.
+        Not using the button? **Support → Copy package info** and **Copy device info** produce the same thing.
+    validations:
+      required: false
 
   - type: textarea
     id: extras
