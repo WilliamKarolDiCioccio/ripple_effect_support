@@ -1,8 +1,17 @@
-# Blank issues stay ON deliberately. The app's support button opens
-# /issues/new?title=…&body=…&labels=… with the version and OS already filled
-# in, and GitHub only honours a prefilled body on the blank form — an issue
-# *form* ignores it. Turning blank issues off would silently break the one
-# route most reports actually arrive by.
+# Blank issues stay ON deliberately, though no longer for the reason this
+# comment used to give.
+#
+# It said the app's support button opens /issues/new?title=…&body=…&labels=…
+# because GitHub honours a prefilled *body* only on the blank form. The first
+# half of that is now out of date and the second half is still true and was
+# never the whole story: a form ignores `body`, but it does read one query
+# parameter per field, keyed by the field's `id` in the YAML. So "Report a bug"
+# now opens bug_report.yml with the version, the platform, the OS and the
+# diagnostics already filled in — see `lib/src/about/bug_report.dart`, which
+# owns those ids and must be kept in step with this directory by hand.
+#
+# Blank issues stay on anyway. Nothing about a form makes them harmful, and
+# turning them off would take away the one route that needs no template to fit.
 blank_issues_enabled: true
 
 contact_links:
