@@ -74,12 +74,30 @@ and so is everything filed in it.
 
 ## Licence
 
-Ripple Effect is proprietary software — see [LICENSE](LICENSE). It is not open
-source. You may install and run the official builds for any purpose, personal
-or commercial, and everything you author with it is yours; you may not
-redistribute, modify or reverse engineer the software itself.
+Ripple Effect is proprietary software. It is not open source. You may install
+and run the official builds for any purpose, personal or commercial, and
+everything you author with it is yours; you may not redistribute, modify or
+reverse engineer the software itself.
+
+The licence is the **End-User Licence Agreement**, published at
+**[legal.ripplefx.app/eula](https://legal.ripplefx.app/eula/)**. That is the
+authoritative copy; [LICENSE](LICENSE) in this repository is a copy of version
+1.0, kept so that a checkout has the terms without a network. It replaces the
+short *Ripple Effect Licence* that this repository used to carry.
+
+The other documents:
+[Terms of Service](https://legal.ripplefx.app/terms/) for the website and the
+hosted service,
+[Privacy Notice](https://legal.ripplefx.app/privacy/) for what is processed
+and why, and
+[Sub-processors](https://legal.ripplefx.app/subprocessors/) for who else
+touches it.
 
 The dependencies it is built on stay under their own licences. The complete
 list is in the app, under **About → Third-party licences**.
 
-© 2026 William Karol Di Cioccio. All rights reserved.
+Questions about any of these: legal@connecting-the-dots.dev. Questions about
+using the app: open a [discussion](../../discussions).
+
+© 2026 ConnectingTheDots — a trade name of William Karol Di Cioccio, VAT
+IT02224180667. All rights reserved.
