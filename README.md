@@ -96,7 +96,7 @@ touches it.
 The dependencies it is built on stay under their own licences. The complete
 list is in the app, under **About → Third-party licences**.
 
-Questions about any of these: legal@connecting-the-dots.dev. Questions about
+Questions about any of these: legal@ripplefx.app. Questions about
 using the app: open a [discussion](../../discussions).
 
 © 2026 ConnectingTheDots — a trade name of William Karol Di Cioccio, VAT
