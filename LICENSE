@@ -91,7 +91,9 @@ Agreement at no cost within thirty (30) days of that notice.
    comply with this Agreement.
 
    There is no seat count, no registration, no licence key and no activation.
-   The application does not ask who you are and has no way of knowing.
+   The licence does not depend on knowing who you are: the application never
+   asks, unless you choose to sign in to the Service, and nothing in this
+   Agreement requires you to.
 
 
 3. WHAT STAYS YOURS
@@ -176,8 +178,20 @@ Agreement at no cost within thirty (30) days of that notice.
       asks whether to send the report it saved, names every file in it and
       says what each one contains. Nothing is sent unless you answer yes to
       that report, there is no setting that answers in advance, and declining
-      is final for that report.
-   4. Whatever you send yourself. Version control pushes to a repository you
+      is final for that report. Before asking, the application checks that
+      the server it would send to can be reached, with a request that carries
+      nothing about you.
+   4. Usage statistics, and only if you switch them on. From the version that
+      introduces them, the application asks once whether to send them, with
+      the complete list of what would be sent in front of the question and
+      neither answer preselected. Nothing is sent unless you say yes, the
+      setting can be switched off at any time, and switching it off stops
+      them at once. No content you author is ever included.
+   5. What the Service needs, if you sign in. Signing in, and anything you
+      then do with the hosted features, goes to our servers under the Terms
+      of Service at https://legal.ripplefx.app/terms/. Nothing is sent for
+      the Service before you sign in.
+   6. Whatever you send yourself. Version control pushes to a repository you
       configured, with credentials you supplied, held in your operating
       system's credential store. Opening documentation or a support page
       hands a URL to your browser. We are not a party to any of it.
